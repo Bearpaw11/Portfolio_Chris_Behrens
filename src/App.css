@@ -9,22 +9,24 @@ font-family: 'Roboto Slab', serif;
 .background {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
-  height: 400px
+  height: 400px;
+  margin-bottom: 60px;
+  
 }
 
 .name {
-  font-size: 200%;
+  font-size: 300%;
 }
 .title{
   text-align: center;
-  margin-top:30px;
-  margin-bottom: 2opx;
+  margin-bottom: 50px;
+ 
 }
 .chris {
   float:left;
   box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -7px rgba(0,0,0,0.2);
   display: block;
-  margin: 30px 40px 10px 40px;
+  margin: 10px 40px 40px 40px;
   width: 250px;
   height: 250px;
 }
@@ -34,7 +36,9 @@ font-family: 'Roboto Slab', serif;
   margin-left: 40px;
   margin-top: 30px;
   margin-right: 40px;
-
+  padding-bottom: 60px;
+  border-bottom-style: solid;
+  border-color: rgba(128, 128, 128, 0.071)
 }
 .area{
   margin: 20px 40px 40px 40px;
@@ -44,19 +48,43 @@ justify-content: center;
 text-align: center;
 margin-top: 40px;
 background-color:white;
+border-top-style: solid;
+border-color: rgba(128, 128, 128, 0.071)
 }
 
 .skillsHeader{
   text-align: center;
-  margin-top:30px;
-  margin-bottom: 20px;
+  margin-top:60px;
+  margin-bottom: 40px;
 }
 
 h4{
   text-align: center;
-  text-decoration-line: underline
+  text-decoration-line: underline;
+  
+}
+
+.logo{
+  height:30px;
+  width: 30px;
+}
+
+.logoM{
+  height:30px;
+  width: 50px;
 }
 
 .skills{
   text-align: center;
+  font-size: 130%;
+}
+
+.allSkills{
+padding-bottom: 60px;
+
+}
+
+.tm{
+  width:20px;
+  height:20px;
 }
