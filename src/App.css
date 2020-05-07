@@ -93,15 +93,28 @@ padding-bottom: 60px;
   text-align: center;
 }
 
-.img {
-  height: 500px;
-  width: 350px;
+.projectImg {
+  float:left;
+  height: 300px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   
 }
 
-.appName{
+.appTitle{
   text-align: center;
+  font-weight: bold;
+}
+
+.projectText {
+  height: 500px;
+  width: 350px;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

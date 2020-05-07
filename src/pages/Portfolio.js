@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 import Project from "../components/Projects"
+import Card from 'react-bootstrap/Card'
+
 
 
 
@@ -10,11 +12,9 @@ class App extends Component {
   render() {
     const settings = {
       dots: true,
-      fade: true,
       infinite: true,
-    
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow: 3,
       slidesToScroll: 3
     };
     return (
@@ -26,78 +26,75 @@ class App extends Component {
        <br></br>
         <Slider {...settings}>
           <div>
-            <h5 className= "appName">Weather App</h5>
-          <img className= "img" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/>
-          <h3>Applice</h3>
+          <Card clasName="card"style={{ width: '400px', height: '550px' }}>
+           <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1558541966-d1071f7329bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+           <Card.Body>
+             <Card.Title className="appTitle">Speech Therapy</Card.Title>
+             <Card.Text>Speech Therapy enables users to improve upon and gain confidence in their public speaking skills. This app allows you to practice your speech and recieve analysis on filler words you might be saying and the length of your speech.</Card.Text>
+             <a href="https://speechtherapyapp.herokuapp.com/" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://github.com/Bearpaw11/speech_app" target='-blank'>Link to App</a>
+           </Card.Body>
+          </Card>
           </div>
           <div>
-            <h3>2</h3>
+          <Card style={{ width: '400px', height: '550px' }}>
+           <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+           <Card.Body>
+             <Card.Title className="appTitle">Weather Dashboard</Card.Title>
+             <Card.Text>This is a weather app I made using jQuery and the OpenWeather API. You may check the current weather of any major city and get a 5 day forcast</Card.Text>
+             <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
+           </Card.Body>
+          </Card>
           </div>
           <div>
-            <h3>3</h3>
+          <Card style={{ width: '400px', height: '550px' }}>
+           <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+           <Card.Body>
+             <Card.Title className="appTitle">Weather Dashboard</Card.Title>
+             <Card.Text>This is a weather app I made using jQuery and the OpenWeather API. You may check the current weather of any major city and get a 5 day forcast</Card.Text>
+             <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
+           </Card.Body>
+          </Card>
           </div>
           <div>
-            <h3>4</h3>
+          <Card style={{ width: '400px', height: '550px' }}>
+           <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+           <Card.Body>
+             <Card.Title className="appTitle">Weather Dashboard</Card.Title>
+             <Card.Text>This is a weather app I made using jQuery and the OpenWeather API. You may check the current weather of any major city and get a 5 day forcast</Card.Text>
+             <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
+           </Card.Body>
+          </Card>
           </div>
           <div>
-            <h3>5</h3>
+          <Card style={{ width: '400px', height: '550px' }}>
+           <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+           <Card.Body>
+             <Card.Title className="appTitle">Weather Dashboard</Card.Title>
+             <Card.Text>This is a weather app I made using jQuery and the OpenWeather API. You may check the current weather of any major city and get a 5 day forcast</Card.Text>
+             <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
+           </Card.Body>
+          </Card>
           </div>
           <div>
-            <h3>6</h3>
-          </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div>
-          <div>
-            <h3>9</h3>
+          <Card style={{ width: '400px', height: '550px' }}>
+           <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+           <Card.Body>
+             <Card.Title className="appTitle">Weather Dashboard</Card.Title>
+             <Card.Text>This is a weather app I made using jQuery and the OpenWeather API. You may check the current weather of any major city and get a 5 day forcast</Card.Text>
+             <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
+           </Card.Body>
+          </Card>
           </div>
         </Slider>
       </div>
     );
   }
 }
-//   render(){
-//     const settings = {
-//       dots: true,
-//       fade: true,
-//       // infinite: true,
-//       speed: 500,
-//       slidesToShow: 2,
-//       arrows: true,
-//       slidesToScroll: 2,
-//       className: "slides"
-//     };
-
-//     return(
-//      <div>
-//        <h1 className="header">"Inspire and Persevere"</h1>
-//        <br></br>
-//        <h3 className="header">My Projects</h3>
-//        <br></br>
-//        <br></br>
-        
-//     <Slider {...settings}>
-//            <div>
-//             <h3>1</h3>
-//           </div>
-//           <div>
-//             <h3>2</h3>
-//           </div>
-//           <div>
-//             <h3>3</h3>
-//           </div>
-//           <div>
-//             <h3>4</h3>
-//           </div>
-//     </Slider>
-//     </div>
-//     );
-//   }
-// }
-
-
 
 export default App;
