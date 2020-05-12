@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Navmenu() {
     return (
-<Navbar bg="light" expand="lg">
+<Navbar className="navborder" bg="light" expand="lg">
   <Navbar.Brand  className="name" href="#home">Chris Behrens </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
