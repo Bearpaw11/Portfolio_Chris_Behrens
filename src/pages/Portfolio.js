@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
-import Project from "../components/Projects"
 import Card from 'react-bootstrap/Card'
 
 
@@ -73,13 +72,14 @@ class App extends Component {
           </Card>
           </div>
           <div>
-          <Card style={{ width: '350px', height: '550px' }}>
-           <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+          <Card style={{ width: '400px', height: '550px' }}>
+           <Card.Img className="projectImg" variant="top" src= "https://images.unsplash.com/photo-1458560871784-56d23406c091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
-             <Card.Title className="appTitle">Weather Dashboard</Card.Title>
-             <Card.Text>This is a weather app I made using jQuery and the OpenWeather API. You may check the current weather of any major city and get a 5 day forcast</Card.Text>
-             <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
-             <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
+             <Card.Title className="appTitle">Track That Track</Card.Title>
+             <Card.Text>This is a music App that a group of developers and I made. This app was made for music lovers that are looking to learn more about bands/artists of their choosing. This uses LastFM API and BandsInTown API</Card.Text>
+             <br></br>
+             <a href="https://github.com/Bearpaw11/TrackThatTrack" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://bearpaw11.github.io/TrackThatTrack/" target='-blank'>Link to App</a>
            </Card.Body>
           </Card>
           </div>
