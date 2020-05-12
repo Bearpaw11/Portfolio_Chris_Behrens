@@ -132,3 +132,15 @@ padding-bottom: 60px;
   height: 200px;
   cursor: pointer;
 }
+
+.contactIMG2{
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.contactIMG1{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}

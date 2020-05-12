@@ -1,6 +1,7 @@
 import React from 'react'
 import github1 from '../images/gitHub1.png'
 import linkedIn from '../images/linkedIn.png'
+import PDF from '../images/pdf.jpeg'
 
 function Contact (){
 
@@ -24,11 +25,8 @@ return(
     <br></br>
     <br></br>
     <img class="contactIMG" src={github1} alt="https://github.com/Bearpaw11" onClick={githubRedirect}></img>
-    <img className="contactIMG" src={linkedIn} alt="https://www.linkedin.com/in/chris-behrens/"onClick={linkedInRedirect}></img>
-
-
-
-   
+    <img className="contactIMG2" src={linkedIn} alt="https://www.linkedin.com/in/chris-behrens/"onClick={linkedInRedirect}></img>
+    <img className="contactIMG1" src={PDF} alt="https://www.linkedin.com/in/chris-behrens/"onClick={linkedInRedirect}></img>
 </div>
 )
 }
