@@ -42,6 +42,7 @@ class App extends Component {
            <Card.Body>
              <Card.Title className="appTitle">Bottoms Up</Card.Title>
              <Card.Text>This is Full Stack social media app for the drinker that a group of developers and I made. This app uses Passport for user verification, MySql for the database and sequelize as middleware</Card.Text>
+             <br></br>
              <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
              <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
            </Card.Body>
@@ -53,6 +54,8 @@ class App extends Component {
            <Card.Body>
              <Card.Title className="appTitle">Weather Dashboard</Card.Title>
              <Card.Text>This is a weather app I made using jQuery and the OpenWeather API. You may check the current weather of any major city and get a 5 day forcast</Card.Text>
+             <br></br>
+             <br></br>
              <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
              <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
            </Card.Body>
