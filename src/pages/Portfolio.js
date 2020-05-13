@@ -30,8 +30,8 @@ class App extends Component {
            <Card.Body>
              <Card.Title className="appTitle">Speech Therapy</Card.Title>
              <Card.Text>This app allows you to practice your speech. You will recieve analysis on filler words you might be saying and the length of your speech. This app was devleoped by myself and 3 other developers. I was the backend lead for this project.</Card.Text>
-             <a href="https://speechtherapyapp.herokuapp.com/" target="_blank">Link to GitHub Repo</a><br></br>
-             <a href="https://github.com/Bearpaw11/speech_app" target='-blank'>Link to App</a>
+             <a href="https://github.com/Bearpaw11/speech_app/" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://speechtherapyapp.herokuapp.com/" target='-blank'>Link to App</a>
            </Card.Body>
           </Card>
           </div>
@@ -91,8 +91,8 @@ class App extends Component {
              <Card.Text>This is a workout tracker that uses MongoDB and moogoose. You can add new Resistance or cardio workout and then view all your workouts on a graph</Card.Text>
              <br></br>
              <br></br>
-             <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
-             <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
+             <a href="https://github.com/Bearpaw11/Workout_Tracker" target="_blank">Link to GitHub Repo</a><br></br>
+             <a href="https://workoutapp2020.herokuapp.com/" target='-blank'>Link to App</a>
            </Card.Body>
           </Card>
           </div>
