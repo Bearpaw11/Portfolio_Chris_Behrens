@@ -17,7 +17,7 @@ body {
 .name {
   font-size: 300%;
   padding-left: 20px;
-  
+  font-style: oblique;
 }
 
 .navbar {
