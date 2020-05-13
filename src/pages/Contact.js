@@ -22,7 +22,7 @@ function resumeRedirect() {
 }
 
 return(
-<div className="title">
+<div className="title1">
 <h2 className ="title">Contact</h2>
 <br></br>
 <h5>Here is my contact info. I'd love to hear from you.</h5>
