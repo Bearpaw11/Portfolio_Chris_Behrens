@@ -35,11 +35,13 @@ body {
   float:left;
   box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -7px rgba(0,0,0,0.2);
   display: block;
-  margin: 25px 40px 40px 40px;
-  width: 200px;
-  height: 250px;
+  margin: 0px 40px 40px 40px;
+  width: 250px;
+  height: 320px;
 }
-
+.intro{
+  margin-top:20px;
+}
 .about {
   margin-left: 40px;
   /* margin-top: 30px; */
