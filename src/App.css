@@ -29,7 +29,7 @@ body {
 }
 .title{
   text-align: center;
-  
+  text-decoration: underline;
 }
 .chris {
   float:left;
