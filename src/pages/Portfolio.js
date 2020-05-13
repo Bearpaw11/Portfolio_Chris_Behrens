@@ -20,7 +20,7 @@ class App extends Component {
       <div>
        <h1 className="header">Inspire and Persevere</h1>
       <br></br>
-       <h3 className="header">My Projects</h3>
+       <h2 className="title">My Projects</h2>
       <br></br>
        <br></br>
         <Slider {...settings}>
