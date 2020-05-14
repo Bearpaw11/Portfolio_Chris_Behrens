@@ -17,7 +17,6 @@ function linkedInRedirect() {
 }
 
 function resumeRedirect() {
-    const url = "https://www.linkedin.com/in/chris-behrens/"
     window.open(chrisResume, "_blank"); 
 }
 
