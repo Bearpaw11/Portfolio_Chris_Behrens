@@ -48,7 +48,7 @@ body {
 }
 .about {
   margin-left: 40px;
-  /* margin-top: 30px; */
+  margin-top: 0px;
   margin-right: 40px;
   padding-bottom: 60px;
   border-bottom-style: solid;
@@ -156,3 +156,8 @@ padding-bottom: 60px;
   margin-top: 50px;
 }
 
+@media only screen and (min-width: 1500px) {
+  .chris {
+    margin-top: -40px;
+  }
+}
