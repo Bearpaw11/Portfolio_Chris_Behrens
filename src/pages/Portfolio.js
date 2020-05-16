@@ -54,7 +54,8 @@ class App extends Component {
            <Card.Body>
              <Card.Title className="appTitle">Weather Dashboard</Card.Title>
              <Card.Text>Enter a city in the search box and the current weather pops up and also a 5 day forecast. The five most recent cities are saved in local stoarge and shown on the page.</Card.Text>
-             <p>Technologies used: HTML, CSS, JavaScript, jQuery, openweathermap api and moment.js api.</p>
+             <p>Technologies used: HTML, CSS, JavaScript, jQuery, openweathermap api and moment.js</p>
+             <br></br>
              <a href="https://github.com/Bearpaw11/Unit_06_Weather_Dashboard" target="_blank">Link to GitHub Repo</a><br></br>
              <a href="https://bearpaw11.github.io/Unit_06_Weather_Dashboard/" target='-blank'>Link to App</a>
            </Card.Body>
