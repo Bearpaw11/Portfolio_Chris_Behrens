@@ -66,7 +66,7 @@ class App extends Component {
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1552068751-34cb5cf055b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">ChatApp</Card.Title>
-             <Card.Text>Join a Chatroom an live chat with other people in the room. You can choose from multiple chat rooms to join. The Chat admin will notify you when others have joined and left the room</Card.Text>
+             <Card.Text>Join a chatroom and live chat with other people. You can choose from multiple chat rooms to join. The Chat admin will notify you when others have joined and left the room</Card.Text>
              <p>Technologies used: CSS, JavaScript, Node.js, express, socket.io, MomentJS, Heroku</p>
              <br></br>
              <a href="https://github.com/Bearpaw11/ChatApp/" target="_blank">Link to GitHub Repo</a><br></br>
@@ -79,7 +79,7 @@ class App extends Component {
            <Card.Img className="projectImg" variant="top" src= "https://images.unsplash.com/photo-1458560871784-56d23406c091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Track That Track</Card.Title>
-             <Card.Text>This is a music App that a group of developers and I made. This app was made for music lovers that are looking to learn more about bands/artists of their choosing. </Card.Text>
+             <Card.Text>This is a music App that a group of developers and I created. This app was made for music lovers that are looking to learn more about bands/artists of their choosing. </Card.Text>
              <p>Technologies used: HTML, CSS, JavaScript, jQuery, LastFM API, BandsInTown API</p>
              <br></br>
              <a href="https://github.com/Bearpaw11/TrackThatTrack" target="_blank">Link to GitHub Repo</a><br></br>
@@ -92,7 +92,7 @@ class App extends Component {
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Fitness Tracker</Card.Title>
-             <Card.Text>This is a workout tracker that allows you to add new Resistance or cardio workouts and then view all your workouts on a graph to see your progress.</Card.Text>
+             <Card.Text>This is a workout tracker that allows you to add new resistance or cardio workouts and then view all your workouts on a graph to see your progress.</Card.Text>
              <p>Technologies used: JavaScript, CSS, MonogDB, mongoose, express, morgan</p>
              <br></br>
              <a href="https://github.com/Bearpaw11/Workout_Tracker" target="_blank">Link to GitHub Repo</a><br></br>
