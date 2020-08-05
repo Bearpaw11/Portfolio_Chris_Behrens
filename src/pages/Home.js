@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuImg from '../images/background1.png'
+import MenuImg from '../images/code.jpg'
 import Chris from '../images/Chris1.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
