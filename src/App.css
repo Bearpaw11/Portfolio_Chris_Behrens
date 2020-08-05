@@ -33,6 +33,7 @@ body {
 .title{
   text-align: center;
   text-decoration: underline;
+  margin: 0px 0px 40px 0px;
 }
 .title1{
   text-align: center;
@@ -160,12 +161,20 @@ padding-bottom: 60px;
   margin-top: 50px;
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1200px) {
   .chris {
-    margin-top: -75px;
+    margin-top: -40px;
   }
  
 }
+
+@media only screen and (min-width: 1500px) {
+  .chris {
+    margin-top: -80px;
+  }
+ 
+}
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -195,5 +204,27 @@ padding-bottom: 60px;
     margin-right: auto;
     width: 400px;
     height: 250px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .chris{
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -7px rgba(0,0,0,0.2);
+  width: 250px;
+  height: 320px;
+  }
+}
+@media only screen and (max-width: 750px) {
+.about {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-bottom: 60px;
+  border-bottom-style: solid;
+  border-color: rgba(128, 128, 128, 0.071)
   }
 }
