@@ -13,8 +13,8 @@ class App extends Component {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToShow: 1,
+      slidesToScroll: 1
     };
     return (
       <div>
@@ -25,7 +25,7 @@ class App extends Component {
        <br></br>
         <Slider {...settings}>
           <div>
-          <Card clasName="card"style={{ width: '400px', height: '620px' }}>
+          <Card clasName="card" style={{ width: '400px', height: '620px' }}>
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1558541966-d1071f7329bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Speech Therapy</Card.Title>
@@ -37,7 +37,7 @@ class App extends Component {
           </Card>
           </div>
           <div>
-          <Card style={{ width: '400px', height: '620px' }}>
+          <Card clasName="card" style={{ width: '400px', height: '620px' }}>
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Bottoms Up</Card.Title>
@@ -49,7 +49,7 @@ class App extends Component {
           </Card>
           </div>
           <div>
-          <Card style={{ width: '400px', height: '620px' }}>
+          <Card clasName="card" style={{ width: '400px', height: '620px' }}>
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Weather Dashboard</Card.Title>
@@ -62,7 +62,7 @@ class App extends Component {
           </Card>
           </div>
           <div>
-          <Card style={{ width: '400px', height: '620px' }}>
+          <Card clasName="card" style={{ width: '400px', height: '620px' }}>
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1552068751-34cb5cf055b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">ChatApp</Card.Title>
@@ -75,7 +75,7 @@ class App extends Component {
           </Card>
           </div>
           <div>
-          <Card style={{ width: '400px', height: '620px' }}>
+          <Card clasName="card" style={{ width: '400px', height: '620px' }}>
            <Card.Img className="projectImg" variant="top" src= "https://images.unsplash.com/photo-1458560871784-56d23406c091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Track That Track</Card.Title>
@@ -88,7 +88,7 @@ class App extends Component {
           </Card>
           </div>
           <div>
-          <Card style={{ width: '400px', height: '620px' }}>
+          <Card clasName="card" style={{ width: '400px', height: '620px' }}>
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Fitness Tracker</Card.Title>
