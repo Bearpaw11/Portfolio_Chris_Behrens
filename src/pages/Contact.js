@@ -27,7 +27,7 @@ return(
 <h5>Here is my contact info. I'd love to hear from you.</h5>
 <br></br>
     <h6>Phone: 602-295-5560</h6>
-    <h6>Email: Christopherbehrens1984@gmail.com</h6>
+    <h6>Email: ChristopherBehrens1984@gmail.com</h6>
     <br></br>
     <br></br>
     <img class="contactIMG" src={github1} alt="https://github.com/Bearpaw11" onClick={githubRedirect}></img>
