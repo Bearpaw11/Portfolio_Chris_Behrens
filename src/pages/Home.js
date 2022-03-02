@@ -24,7 +24,9 @@ return(
     <h2 className = 'title'> About Me</h2>
     <img className="chris" src={Chris}></img>
     <h5 className="intro"> Hi, I'm Chris!</h5>
-    <h5>I am a Full Stack Web Developer who is a critical thinker, team player and someone who loves a challenge. Recently, I received a Full Stack Development certificate from The University of Arizona. I have built this portfolio to help showcase my skills with front end programs such as HTML5, CSS, JavaScript, Bootstrap, ReactJs as well as back end programs and frameworks such as Node.js, express, MongoDB and MySQL.</h5>
+    <h5 className >I am a Full Stack Web Developer who is a critical thinker, team player and someone who loves a challenge. I have a Full Stack Web Development certificate from The University of Arizona. I enjoy front end programming and have extensive experience using React and continue to learn more and more. In my opinion what makes React so great is componets and State. I have built this portfolio to help showcase my skills with front end programs such as HTML5, CSS, JavaScript, Bootstrap, React as well as back end programs and frameworks such as Node.js, express, MongoDB and MySQL.</h5>
+    
+   
     <h5 className ="about">My experience as a Systems Engineer has given me knowledge of the cutting edge hardware and software being used to accelerate growth and new technologies in this space. I also have a strong business background that includes a Bachelor’s degree in Finance that can be used to put a monetary perspective on projects. I am excited to leverage my expertise, education and knowledge to become an asset to a software development team.</h5> 
     <h3 className='skillsHeader'>Current Technologies and Skill Set</h3>
     <Row className="allSkills">

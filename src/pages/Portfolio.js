@@ -93,7 +93,7 @@ class App extends Component {
            <Card.Body>
              <Card.Title className="appTitle">Fitness Tracker</Card.Title>
              <Card.Text>This is a workout tracker that allows you to add new resistance or cardio workouts and then view all your workouts on a graph to see your progress.</Card.Text>
-             <p>Technologies used: JavaScript, CSS, MonogDB, mongoose, express, morgan</p>
+             <p>Technologies used: JavaScript, CSS, MongoDB, mongoose, express, morgan</p>
              <br></br>
              <a href="https://github.com/Bearpaw11/Workout_Tracker" target="_blank">Link to GitHub Repo</a><br></br>
              <a href="https://workoutapp2020.herokuapp.com/" target='-blank'>Link to App</a>
