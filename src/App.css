@@ -117,7 +117,7 @@ padding-bottom: 60px;
 .projectImg {
   float:left;
   height: 300px;
-  width: 400px;
+  width: 375px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -139,6 +139,7 @@ padding-bottom: 60px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .contactIMG{
@@ -160,6 +161,8 @@ padding-bottom: 60px;
   margin-bottom: 75px;
   margin-top: 50px;
 }
+
+
 
 @media only screen and (min-width: 1200px) {
   .chris {
@@ -228,6 +231,10 @@ padding-bottom: 60px;
   border-color: rgba(128, 128, 128, 0.071)
   }
 }
+
+
+
+
 
 
 
