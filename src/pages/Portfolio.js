@@ -29,8 +29,8 @@ class App extends Component {
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1558541966-d1071f7329bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60.com/photo-1508697014387-db70aad34f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Speech Therapy</Card.Title>
-             <Card.Text className="projectText">This app allows you to practice your speech using voice-to-text technology. You will receive analysis on filler words you may be saying and the length of your speech. </Card.Text>
-             <p className="projectText"> Technologies used: React, MySQL/Sequelize, Nodemailer, Express, Node, Bootstrap, HTML, CSS, Sass, WebSpeech API, Passport, Heroku.</p>
+             <Card.Text >This app allows you to practice your speech using voice-to-text technology. You will receive analysis on filler words you may be saying and the length of your speech. </Card.Text>
+             <p> Technologies used: React, MySQL/Sequelize, Nodemailer, Express, Node, Bootstrap, HTML, CSS, Sass, WebSpeech API, Passport, Heroku.</p>
              <a href="https://github.com/Bearpaw11/speech_app/" target="_blank">Link to GitHub Repo</a><br></br>
              <a href="https://speechtherapyapp.herokuapp.com/" target='-blank'>Link to App</a>
            </Card.Body>
@@ -41,7 +41,7 @@ class App extends Component {
            <Card.Img className="projectImg" variant="top" src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
            <Card.Body>
              <Card.Title className="appTitle">Bottoms Up</Card.Title>
-             <Card.Text className="projectText">This is a Full Stack social media app aimed at those who have an interest in consuming adult libations, whether at home or out and about, painting the town red! </Card.Text>
+             <Card.Text>This is a Full Stack social media app aimed at those who have an interest in consuming adult libations, whether at home or out and about, painting the town red! </Card.Text>
              <p className="projectText">Technologies used: Node.js, express, bcrypt, Passport, MySQL, sequelize, CSS, Bootstrap, Heroku</p>
              <a href="https://github.com/zace118/BottomsUp" target="_blank">Link to GitHub Repo</a><br></br>
              <a href="https://bottoms-up-app.herokuapp.com/" target='-blank'>Link to App</a>
